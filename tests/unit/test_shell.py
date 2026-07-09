@@ -7,7 +7,7 @@ def test_echo_and_exit_code(tmp_path):
 
 
 def test_nonzero_exit(tmp_path):
-    assert "[exit 1]" in Shell(tmp_path).run("ls /nonexistent_dir_xyz")
+    assert "[exit 1]" in Shell(tmp_path).run("false")
 
 
 def test_state_persists_across_calls(tmp_path):

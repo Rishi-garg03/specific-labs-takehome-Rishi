@@ -1,129 +1,88 @@
-"""Baseline agent — deliberately minimal. This is the file you are expected to improve.
-
-It reads task.md, then loops: ask the model what to do, run the bash commands it
-requests inside the workspace, feed back the output. It stops when the model
-replies without requesting a command, or after MAX_TURNS.
-
-It is deliberately naive. Diagnosing its weaknesses — where the tokens go,
-where the mistakes come from — is part of the assignment.
-
-Contract you must preserve (the runner depends on it):
-  - invoked as `python -m agent.run --task-dir <dir> --model <model>`
-  - operates only inside <dir>/workspace
-  - talks ONLY to the pinned model, served via OpenRouter, using the
-    key in $OPENROUTER_API_KEY
-  - appends one JSON line per API call to $GAUNTLET_USAGE_LOG:
-    {"input_tokens": N, "output_tokens": N, "cache_write_tokens": N,
-     "cache_read_tokens": N}
-    (keep this honest — grading cross-checks it against the OpenRouter ledger)
-"""
-
 import argparse
 import json
 import os
-import subprocess
 import sys
 from pathlib import Path
 
 from openai import OpenAI
 
-MAX_TURNS = 30
-CMD_TIMEOUT = 60          # seconds per bash command
-MAX_OUTPUT_CHARS = 10_000
-OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-
-SYSTEM_PROMPT = """\
-You are a helpful assistant completing a task in a workspace directory.
-Read the task, then use the bash tool to get it done.
-When you are finished, reply with plain text (no tool call)."""
-
-BASH_TOOL = {
-    "type": "function",
-    "function": {
-        "name": "bash",
-        "description": "Run a shell command in the task workspace and get its output.",
-        "parameters": {
-            "type": "object",
-            "properties": {"command": {"type": "string",
-                                       "description": "the command to run"}},
-            "required": ["command"],
-        },
-    },
-}
+from .config import BASE_URL, MAX_TOKENS, MAX_TURNS, MODEL_DEFAULT, REPAIR_TURNS
+from .gate import gate
+from .probe import inventory, snapshot
+from .prompt import system_prompt
+from .shell import TOOL, Shell
+from .transcript import Recorder
+from .usage import log_usage
 
 
-def log_usage(usage):
-    path = os.environ.get("GAUNTLET_USAGE_LOG")
-    if not path:
-        return
-    details = getattr(usage, "prompt_tokens_details", None)
-    cached = getattr(details, "cached_tokens", 0) or 0
-    entry = {
-        "input_tokens": usage.prompt_tokens - cached,
-        "output_tokens": usage.completion_tokens,
-        "cache_write_tokens": 0,  # cache writes are billed inside prompt_tokens here
-        "cache_read_tokens": cached,
-    }
-    with open(path, "a") as f:
-        f.write(json.dumps(entry) + "\n")
-
-
-def run_bash(command, workspace):
-    try:
-        proc = subprocess.run(
-            ["bash", "-c", command], cwd=workspace,
-            capture_output=True, text=True, timeout=CMD_TIMEOUT,
-        )
-    except subprocess.TimeoutExpired:
-        return f"ERROR: command timed out after {CMD_TIMEOUT}s"
-    output = proc.stdout + proc.stderr
-    if len(output) > MAX_OUTPUT_CHARS:
-        output = output[:MAX_OUTPUT_CHARS] + "\n... (output truncated)"
-    return output or f"(no output, exit code {proc.returncode})"
+def _trim(messages):
+    for m in messages[:-4]:
+        if m["role"] == "tool" and len(m["content"]) > 300:
+            m["content"] = m["content"][:300] + " …[trimmed]"
+        for call in m.get("tool_calls") or []:
+            if len(call["function"]["arguments"]) > 300:
+                call["function"]["arguments"] = json.dumps({"command": "[earlier command omitted]"})
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--task-dir", required=True)
-    parser.add_argument("--model", default="anthropic/claude-haiku-4.5")
+    parser.add_argument("--model", default=MODEL_DEFAULT)
     args = parser.parse_args()
 
     task_dir = Path(args.task_dir)
     workspace = task_dir / "workspace"
     task = (task_dir / "task.md").read_text()
+    snap = snapshot(workspace)
+    is_repair = (workspace / "tests").is_dir()
+    is_redaction = any(k in task.lower() for k in ("redact", "[email]", "[phone]", "[name]", "pii"))
+    sys_prompt = system_prompt(is_repair, is_redaction)
+    user_msg = f"TASK:\n{task}\n\nWORKSPACE DIRECTORY (your shell's current directory; inputs live here, write the deliverable here): {workspace.resolve()}\n\nFILES (inspect further with small reads; never dump whole data files):\n{inventory(workspace)}"
+    shell = Shell(workspace)
+    client = OpenAI(base_url=BASE_URL, api_key=os.environ["OPENROUTER_API_KEY"])
+    messages = [{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_msg}]
+    rec = Recorder(os.environ.get("AGENT_TRANSCRIPT"))
+    rec.add("system prompt", sys_prompt)
+    rec.add("task + files", user_msg)
+    ok = False
 
-    client = OpenAI(base_url=OPENROUTER_BASE_URL,
-                    api_key=os.environ["OPENROUTER_API_KEY"])
-    messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": f"Here is your task:\n\n{task}"},
-    ]
+    try:
+        for _ in range(REPAIR_TURNS if is_repair else MAX_TURNS):
+            response = client.chat.completions.create(model=args.model, max_tokens=MAX_TOKENS, temperature=0, tools=[TOOL], messages=messages)
+            log_usage(response.usage)
+            message = response.choices[0].message
+            rec.turn(message)
+            record = {"role": "assistant", "content": message.content or ""}
+            if message.tool_calls:
+                record["tool_calls"] = [call.model_dump() for call in message.tool_calls]
+            messages.append(record)
 
-    for turn in range(1, MAX_TURNS + 1):
-        response = client.chat.completions.create(
-            model=args.model, max_tokens=4096, temperature=0,
-            tools=[BASH_TOOL], messages=messages,
-        )
-        log_usage(response.usage)
-        msg = response.choices[0].message
+            if not message.tool_calls:
+                ok, reason = gate(workspace, task, snap)
+                if ok:
+                    return
+                rec.add("self-gate", f"not finished: {reason}")
+                messages.append({"role": "user", "content": f"Not finished: {reason}. Fix /tmp/solve.py and rerun until the check passes."})
+                continue
 
-        assistant_msg = {"role": "assistant", "content": msg.content or ""}
-        if msg.tool_calls:
-            assistant_msg["tool_calls"] = [tc.model_dump() for tc in msg.tool_calls]
-        messages.append(assistant_msg)
+            for call in message.tool_calls:
+                payload = json.loads(call.function.arguments or "{}")
+                if payload.get("restart"):
+                    shell.restart()
+                    result = "[bash restarted]"
+                else:
+                    command = payload.get("command", "")
+                    if command:
+                        print(f"  $ {command.splitlines()[0][:120]}", file=sys.stderr, flush=True)
+                    result = shell.run(command)
+                rec.tool(result)
+                messages.append({"role": "tool", "tool_call_id": call.id, "content": result})
+            _trim(messages)
 
-        if not msg.tool_calls:
-            print(f"    agent finished after {turn} turns", file=sys.stderr, flush=True)
-            break  # model replied with text only: it considers the task done
-
-        for tool_call in msg.tool_calls:
-            command = json.loads(tool_call.function.arguments)["command"]
-            # narrate on stderr — the runner streams this to the terminal
-            first_line = command.splitlines()[0][:110]
-            print(f"    turn {turn:2d} $ {first_line}", file=sys.stderr, flush=True)
-            output = run_bash(command, workspace)
-            messages.append({"role": "tool", "tool_call_id": tool_call.id,
-                             "content": output})
+        ok = gate(workspace, task, snap)[0]
+        sys.exit(0 if ok else 1)
+    finally:
+        rec.flush("agent self-gate PASSED" if ok else "agent self-gate did NOT pass (turns exhausted)")
 
 
 if __name__ == "__main__":

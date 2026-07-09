@@ -1,0 +1,13 @@
+AGENT: Just to confirm, I am speaking with Amara Berg, correct?
+AGENT: Your ticket has been updated to resolved.
+AGENT: Could you verify the last four digits, Mr. Berg?
+AGENT: Thanks for your patience while I pull that up.
+AGENT: Just to confirm, I am speaking with Jonas Nair, correct?
+AGENT: The refund should post within three business days.
+CUSTOMER: Yes, Jonas here.
+AGENT: The refund should post within three business days.
+AGENT: Thanks, Diego - one moment.
+CUSTOMER: Sure, take your time.
+AGENT: The Ada Terminal will show the update after the next sync.
+CUSTOMER: Hi, my name is Diego Khan and I have a billing question.
+CUSTOMER: That worked, thank you.

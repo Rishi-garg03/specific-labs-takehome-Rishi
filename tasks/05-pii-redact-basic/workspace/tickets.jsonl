@@ -1,0 +1,12 @@
+{"id": 2001, "status": "open", "body": "Inventory sync completed without warnings."}
+{"id": 2002, "status": "closed", "body": "The dashboard numbers matched after the reload."}
+{"id": 2003, "status": "closed", "body": "The retry queue drained overnight as expected."}
+{"id": 2004, "status": "open", "body": "Customer confirmed the issue is resolved."}
+{"id": 2005, "status": "open", "body": "Inventory sync completed without warnings."}
+{"id": 2006, "status": "open", "body": "No further action required at this stage. Reached the customer at 503-555-0111 for confirmation."}
+{"id": 2007, "status": "closed", "body": "No further action required at this stage."}
+{"id": 2008, "status": "closed", "body": "Backfill job finished ahead of schedule. Their billing contact is anna.lindqvist+alerts@nordicpost.se."}
+{"id": 2009, "status": "open", "body": "Waiting on sign-off from the platform team. SMS notifications go to (415) 555-0134."}
+{"id": 2010, "status": "open", "body": "Backfill job finished ahead of schedule. Reached the customer at (415) 555-0134 for confirmation."}
+{"id": 2011, "status": "open", "body": "Follow-up scheduled for next sprint review."}
+{"id": 2012, "status": "closed", "body": "Backfill job finished ahead of schedule. Forwarded the report to d.okafor+invoices@lumenworks.io this morning."}

@@ -1,0 +1,10 @@
+[project]
+name = "agent-gauntlet-takehome"
+version = "0.1.0"
+description = "Agent Gauntlet candidate kit"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.50",
+    "pandas>=2.0",
+    "pytest>=8.0",
+]

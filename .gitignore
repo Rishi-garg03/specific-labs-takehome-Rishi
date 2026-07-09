@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtualenv
+.venv/
+
+# Local eval / testing scaffolding — not part of the deliverable
+eval_suite.py
+eval_out/
+results.json

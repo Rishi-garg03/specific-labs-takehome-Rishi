@@ -1,0 +1,89 @@
+{
+  "replacements": [
+    {
+      "file": "notes/note_1.txt",
+      "value": "Priya.Nair@Vantage-Group.NET",
+      "token": "[EMAIL]"
+    },
+    {
+      "file": "notes/note_1.txt",
+      "value": "tom.mcallister@harborlane.co",
+      "token": "[EMAIL]"
+    },
+    {
+      "file": "notes/note_2.txt",
+      "value": "8085550171",
+      "token": "[PHONE]"
+    },
+    {
+      "file": "notes/note_2.txt",
+      "value": "503-555-0111",
+      "token": "[PHONE]"
+    },
+    {
+      "file": "notes/note_3.txt",
+      "value": "312.555.0122",
+      "token": "[PHONE]"
+    },
+    {
+      "file": "notes/note_3.txt",
+      "value": "d.okafor+invoices@lumenworks.io",
+      "token": "[EMAIL]"
+    },
+    {
+      "file": "notes/note_4.txt",
+      "value": "anna.lindqvist+alerts@nordicpost.se",
+      "token": "[EMAIL]"
+    },
+    {
+      "file": "notes/note_4.txt",
+      "value": "+1 646 555 0189",
+      "token": "[PHONE]"
+    },
+    {
+      "file": "notes/note_5.txt",
+      "value": "312.555.0122",
+      "token": "[PHONE]"
+    },
+    {
+      "file": "notes/note_5.txt",
+      "value": "jrb_1988@coastalmail.org",
+      "token": "[EMAIL]"
+    },
+    {
+      "file": "notes/note_5.txt",
+      "value": "tom.mcallister@harborlane.co",
+      "token": "[EMAIL]"
+    },
+    {
+      "file": "notes/note_6.txt",
+      "value": "maya.torres@brightmail.com",
+      "token": "[EMAIL]"
+    },
+    {
+      "file": "notes/note_6.txt",
+      "value": "jrb_1988@coastalmail.org",
+      "token": "[EMAIL]"
+    },
+    {
+      "file": "tickets.jsonl",
+      "value": "503-555-0111",
+      "token": "[PHONE]"
+    },
+    {
+      "file": "tickets.jsonl",
+      "value": "anna.lindqvist+alerts@nordicpost.se",
+      "token": "[EMAIL]"
+    },
+    {
+      "file": "tickets.jsonl",
+      "value": "(415) 555-0134",
+      "token": "[PHONE]"
+    },
+    {
+      "file": "tickets.jsonl",
+      "value": "d.okafor+invoices@lumenworks.io",
+      "token": "[EMAIL]"
+    }
+  ]
+}

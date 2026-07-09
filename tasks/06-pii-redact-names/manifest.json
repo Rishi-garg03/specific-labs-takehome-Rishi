@@ -1,0 +1,159 @@
+{
+  "replacements": [
+    {
+      "file": "transcripts/chat_1.txt",
+      "value": "Sofia Haddad",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_1.txt",
+      "value": "Sofia",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_1.txt",
+      "value": "Mr. Petrov",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_1.txt",
+      "value": "Mei Petrov",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_1.txt",
+      "value": "Mei",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_2.txt",
+      "value": "Amara Berg",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_2.txt",
+      "value": "Mr. Berg",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_2.txt",
+      "value": "Jonas Nair",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_2.txt",
+      "value": "Jonas",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_2.txt",
+      "value": "Diego",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_2.txt",
+      "value": "Diego Khan",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_3.txt",
+      "value": "Sofia Haddad",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_3.txt",
+      "value": "Sofia",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_3.txt",
+      "value": "Mr. Haddad",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_3.txt",
+      "value": "Ms. Alvarez",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_3.txt",
+      "value": "Priya",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_3.txt",
+      "value": "Priya Alvarez",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_4.txt",
+      "value": "Sofia Haddad",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_4.txt",
+      "value": "Sofia",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_4.txt",
+      "value": "Mr. Haddad",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_4.txt",
+      "value": "Mr. Berg",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_4.txt",
+      "value": "Amara",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_4.txt",
+      "value": "Amara Berg",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_5.txt",
+      "value": "Mr. Rossi",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_5.txt",
+      "value": "Maya Rossi",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_5.txt",
+      "value": "Maya",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_5.txt",
+      "value": "Mr. Haddad",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_5.txt",
+      "value": "Sofia",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_5.txt",
+      "value": "Sofia Haddad",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_5.txt",
+      "value": "Priya Alvarez",
+      "token": "[NAME]"
+    },
+    {
+      "file": "transcripts/chat_5.txt",
+      "value": "Priya",
+      "token": "[NAME]"
+    }
+  ]
+}

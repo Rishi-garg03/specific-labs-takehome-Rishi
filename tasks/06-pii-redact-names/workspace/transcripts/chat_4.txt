@@ -1,0 +1,16 @@
+AGENT: I have pulled up the account for Sofia Haddad.
+CUSTOMER: Great, appreciate the quick help.
+CUSTOMER: Yes, Sofia here.
+CUSTOMER: No, that is everything for now.
+AGENT: You can reset the device from the Ada Terminal settings page.
+CUSTOMER: I saw the charge came from Morgan & Reed LLC.
+AGENT: I have sent the summary to your account, Mr. Haddad.
+CUSTOMER: No, that is everything for now.
+AGENT: The note mentions Sofia's billing preference.
+CUSTOMER: No, that is everything for now.
+AGENT: Apologies for the wait, Mr. Berg.
+AGENT: Is there anything else I can help with today?
+AGENT: Got it, Amara. Let me take a look.
+AGENT: Is there anything else I can help with today?
+AGENT: I have pulled up the account for Amara Berg.
+CUSTOMER: No, that is everything for now.

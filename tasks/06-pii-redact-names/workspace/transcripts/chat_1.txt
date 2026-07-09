@@ -1,0 +1,14 @@
+AGENT: Just to confirm, I am speaking with Sofia Haddad, correct?
+AGENT: The refund should post within three business days.
+AGENT: No problem at all, Sofia.
+AGENT: Is there anything else I can help with today?
+CUSTOMER: This is actually about Sofia Haddad's account.
+AGENT: Your ticket has been updated to resolved.
+AGENT: Could you verify the last four digits, Mr. Petrov?
+AGENT: We have your address on file as 22 Watson Ave, is that right?
+CUSTOMER: That worked, thank you.
+AGENT: The Ada Terminal will show the update after the next sync.
+AGENT: I have pulled up the account for Mei Petrov.
+CUSTOMER: No, that is everything for now.
+CUSTOMER: This is actually about Mei's account.
+CUSTOMER: No, that is everything for now.

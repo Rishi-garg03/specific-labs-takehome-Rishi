@@ -1,0 +1,7 @@
+The retry queue drained overnight as expected.
+Escalated to tier two for deeper investigation.
+No further action required at this stage.
+Follow-up scheduled for next sprint review.
+Waiting on sign-off from the platform team.
+Reached the customer at anna.lindqvist+alerts@nordicpost.se for confirmation.
+Call +1 646 555 0189 before closing the ticket.

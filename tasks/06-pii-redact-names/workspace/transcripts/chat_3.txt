@@ -1,0 +1,15 @@
+AGENT: Thanks for reaching out, Sofia Haddad. How can I help?
+AGENT: I have noted the change on the account.
+CUSTOMER: Yes, Sofia here.
+CUSTOMER: Sure, take your time.
+AGENT: Apologies for the wait, Mr. Haddad.
+AGENT: Is there anything else I can help with today?
+AGENT: I have sent the summary to your account, Ms. Alvarez.
+AGENT: Your ticket has been updated to resolved.
+AGENT: We have your address on file as 22 Watson Ave, is that right?
+AGENT: Got it, Priya. Let me take a look.
+CUSTOMER: No, that is everything for now.
+AGENT: Thanks for reaching out, Priya Alvarez. How can I help?
+AGENT: The refund should post within three business days.
+AGENT: I have Priya Alvarez's ticket open in front of me.
+CUSTOMER: Sure, take your time.

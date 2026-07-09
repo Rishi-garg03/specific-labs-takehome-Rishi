@@ -1,0 +1,23 @@
+AGENT: Could you verify the last four digits, Mr. Rossi?
+CUSTOMER: Great, appreciate the quick help.
+AGENT: Thanks for reaching out, Maya Rossi. How can I help?
+AGENT: Thanks for your patience while I pull that up.
+AGENT: Got it, Maya. Let me take a look.
+AGENT: The refund should post within three business days.
+AGENT: Let me pull up Maya Rossi's recent orders.
+CUSTOMER: Sure, take your time.
+AGENT: Could you verify the last four digits, Mr. Haddad?
+AGENT: Thanks for your patience while I pull that up.
+AGENT: No problem at all, Sofia.
+AGENT: I have noted the change on the account.
+AGENT: Thanks for reaching out, Sofia Haddad. How can I help?
+AGENT: Thanks for your patience while I pull that up.
+AGENT: Let me pull up Sofia Haddad's recent orders.
+AGENT: Thanks for your patience while I pull that up.
+CUSTOMER: Hi, my name is Priya Alvarez and I have a billing question.
+AGENT: The refund should post within three business days.
+AGENT: No problem at all, Priya.
+CUSTOMER: Great, appreciate the quick help.
+AGENT: You can reset the device from the Ada Terminal settings page.
+CUSTOMER: This is actually about Priya Alvarez's account.
+AGENT: The refund should post within three business days.

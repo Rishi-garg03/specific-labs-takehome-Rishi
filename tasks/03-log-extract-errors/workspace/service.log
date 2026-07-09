@@ -1,0 +1,600 @@
+{"ts": "2026-03-14T09:19:22", "level": "WARN", "svc": "billing", "msg": "batch committed"}
+2026-03-14T12:43:19 api-9 INFO health check ok
+Traceback (most recent call last):
+======
+{"ts": "2026-03-14T08:02:17", "level": "ERROR", "svc": "search", "msg": "connection reset by peer"}
+   ... 3 more frames
+Traceback (most recent call last):
+    at com.acme.Router.route(Router.java:41)
+>>> reloading configuration
+{"ts": "2026-03-14T08:20:54", "level": "ERROR", "svc": "billing", "msg": "failed to flush queue"}
+# rotating log segment
+2026-03-14T12:05:49 worker-3 WARN request completed
+2026-03-14T08:52:42 cron-2 ERROR timeout waiting for lock
+---
+2026-03-14T12:42:15 worker-7 WARN config reloaded
+{"ts": "2026-03-14T08:25:37", "level": "ERROR", "svc": "search", "msg": "connection reset by peer"}
+# rotating log segment
+    at com.acme.Server.handle(Server.java:88)
+2026-03-14T12:16:34 api-4 WARN config reloaded
+>>> reloading configuration
+   ... 3 more frames
+# rotating log segment
+2026-03-14T08:49:04 worker-7 ERROR database write rejected
+{"ts": "2026-03-14T08:16:41", "level": "ERROR", "svc": "auth", "msg": "malformed request body"}
+{"ts": "2026-03-14T09:41:44", "level": "WARN", "svc": "auth", "msg": "health check ok"}
+{"ts": "2026-03-14T11:28:02", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-03-14T09:57:04", "level": "INFO", "svc": "search", "msg": "worker heartbeat"}
+2026-03-14T13:28:50 api-4 INFO batch committed
+2026-03-14T14:04:52 cron-2 INFO batch committed
+# rotating log segment
+2026-03-14T12:10:23 api-9 INFO worker heartbeat
+======
+  File "/srv/app/main.py", line 52, in run
+2026-03-14T08:55:45 sync-5 ERROR session store unreachable
+   ... 3 more frames
+    at com.acme.Server.handle(Server.java:88)
+{"ts": "2026-03-14T11:43:55", "level": "INFO", "svc": "billing", "msg": "health check ok"}
+{"ts": "2026-03-14T11:30:12", "level": "WARN", "svc": "search", "msg": "cache warmed"}
+{"ts": "2026-03-14T10:44:56", "level": "INFO", "svc": "search", "msg": "worker heartbeat"}
+   ... 3 more frames
+{"ts": "2026-03-14T08:01:57", "level": "ERROR", "svc": "search", "msg": "database write rejected"}
+{"ts": "2026-03-14T10:14:26", "level": "WARN", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-03-14T09:32:20", "level": "WARN", "svc": "search", "msg": "worker heartbeat"}
+======
+    at com.acme.Router.route(Router.java:41)
+2026-03-14T12:05:47 worker-1 WARN request completed
+2026-03-14T12:24:57 worker-1 INFO config reloaded
+2026-03-14T13:51:45 worker-3 WARN cache warmed
+{"ts": "2026-03-14T09:19:00", "level": "WARN", "svc": "search", "msg": "worker heartbeat"}
+{"ts": "2026-03-14T09:10:03", "level": "WARN", "svc": "auth", "msg": "health check ok"}
+  File "/srv/app/main.py", line 52, in run
+{"ts": "2026-03-14T10:45:50", "level": "INFO", "svc": "search", "msg": "health check ok"}
+======
+    at com.acme.Router.route(Router.java:41)
+{"ts": "2026-03-14T10:34:45", "level": "WARN", "svc": "search", "msg": "config reloaded"}
+  File "/srv/app/main.py", line 52, in run
+{"ts": "2026-03-14T10:24:11", "level": "WARN", "svc": "auth", "msg": "health check ok"}
+{"ts": "2026-03-14T09:05:22", "level": "WARN", "svc": "auth", "msg": "cache warmed"}
+{"ts": "2026-03-14T10:19:50", "level": "WARN", "svc": "auth", "msg": "worker heartbeat"}
+  File "/srv/app/main.py", line 52, in run
+    at com.acme.Router.route(Router.java:41)
+    at com.acme.Server.handle(Server.java:88)
+======
+  File "/srv/app/main.py", line 52, in run
+Traceback (most recent call last):
+{"ts": "2026-03-14T09:03:34", "level": "INFO", "svc": "search", "msg": "batch committed"}
+{"ts": "2026-03-14T09:16:46", "level": "WARN", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-03-14T10:52:55", "level": "WARN", "svc": "auth", "msg": "batch committed"}
+{"ts": "2026-03-14T09:42:12", "level": "WARN", "svc": "billing", "msg": "config reloaded"}
+2026-03-14T13:18:30 sync-5 WARN request completed
+  File "/srv/app/main.py", line 52, in run
+{"ts": "2026-03-14T08:22:58", "level": "ERROR", "svc": "auth", "msg": "timeout waiting for lock"}
+# rotating log segment
+---
+{"ts": "2026-03-14T09:52:49", "level": "INFO", "svc": "search", "msg": "config reloaded"}
+2026-03-14T11:53:07 sync-5 INFO request completed
+
+2026-03-14T08:41:03 worker-3 ERROR disk quota exceeded
+Traceback (most recent call last):
+>>> reloading configuration
+{"ts": "2026-03-14T10:23:37", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+2026-03-14T12:24:12 worker-3 WARN batch committed
+{"ts": "2026-03-14T11:16:47", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-03-14T10:11:10", "level": "WARN", "svc": "search", "msg": "health check ok"}
+
+  File "/srv/app/main.py", line 52, in run
+# rotating log segment
+---
+    at com.acme.Router.route(Router.java:41)
+    at com.acme.Server.handle(Server.java:88)
+>>> reloading configuration
+======
+{"ts": "2026-03-14T11:44:03", "level": "INFO", "svc": "search", "msg": "batch committed"}
+{"ts": "2026-03-14T11:09:00", "level": "INFO", "svc": "search", "msg": "cache warmed"}
+{"ts": "2026-03-14T09:32:29", "level": "WARN", "svc": "search", "msg": "cache warmed"}
+======
+2026-03-14T12:01:29 worker-7 INFO batch committed
+{"ts": "2026-03-14T11:14:52", "level": "WARN", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-03-14T09:44:13", "level": "INFO", "svc": "billing", "msg": "health check ok"}
+# rotating log segment
+2026-03-14T13:16:11 api-4 WARN cache warmed
+2026-03-14T13:53:49 worker-7 INFO cache warmed
+
+2026-03-14T14:03:08 sync-5 INFO cache warmed
+2026-03-14T13:13:38 api-4 INFO health check ok
+{"ts": "2026-03-14T11:20:34", "level": "INFO", "svc": "auth", "msg": "cache warmed"}
+{"ts": "2026-03-14T11:42:12", "level": "WARN", "svc": "billing", "msg": "batch committed"}
+======
+2026-03-14T08:32:39 api-4 ERROR session store unreachable
+{"ts": "2026-03-14T11:21:49", "level": "INFO", "svc": "auth", "msg": "batch committed"}
+    at com.acme.Router.route(Router.java:41)
+  File "/srv/app/main.py", line 52, in run
+# rotating log segment
+{"ts": "2026-03-14T11:23:46", "level": "INFO", "svc": "auth", "msg": "cache warmed"}
+>>> reloading configuration
+2026-03-14T12:32:30 api-4 INFO request completed
+{"ts": "2026-03-14T11:12:44", "level": "WARN", "svc": "search", "msg": "worker heartbeat"}
+---
+{"ts": "2026-03-14T08:15:28", "level": "ERROR", "svc": "billing", "msg": "token validation failed"}
+# rotating log segment
+
+2026-03-14T13:04:22 worker-1 INFO health check ok
+  File "/srv/app/main.py", line 52, in run
+======
+
+2026-03-14T11:48:08 worker-1 WARN config reloaded
+    at com.acme.Server.handle(Server.java:88)
+Traceback (most recent call last):
+{"ts": "2026-03-14T11:41:31", "level": "WARN", "svc": "search", "msg": "batch committed"}
+# rotating log segment
+{"ts": "2026-03-14T10:34:28", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-03-14T10:00:33", "level": "INFO", "svc": "billing", "msg": "worker heartbeat"}
+  File "/srv/app/main.py", line 52, in run
+# rotating log segment
+    at com.acme.Router.route(Router.java:41)
+   ... 3 more frames
+2026-03-14T11:44:27 worker-3 WARN batch committed
+Traceback (most recent call last):
+---
+  File "/srv/app/main.py", line 52, in run
+---
+
+{"ts": "2026-03-14T11:02:03", "level": "WARN", "svc": "billing", "msg": "worker heartbeat"}
+{"ts": "2026-03-14T09:15:56", "level": "WARN", "svc": "search", "msg": "batch committed"}
+  File "/srv/app/main.py", line 52, in run
+{"ts": "2026-03-14T09:40:31", "level": "INFO", "svc": "search", "msg": "cache warmed"}
+2026-03-14T13:47:57 api-9 WARN batch committed
+{"ts": "2026-03-14T11:00:40", "level": "INFO", "svc": "search", "msg": "health check ok"}
+2026-03-14T08:35:28 api-9 ERROR connection reset by peer
+   ... 3 more frames
+>>> reloading configuration
+2026-03-14T11:44:47 cron-2 WARN config reloaded
+======
+{"ts": "2026-03-14T10:00:27", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+---
+{"ts": "2026-03-14T10:03:02", "level": "WARN", "svc": "billing", "msg": "config reloaded"}
+2026-03-14T12:26:45 worker-1 INFO worker heartbeat
+   ... 3 more frames
+   ... 3 more frames
+
+{"ts": "2026-03-14T08:07:49", "level": "ERROR", "svc": "billing", "msg": "timeout waiting for lock"}
+2026-03-14T13:50:09 sync-5 INFO worker heartbeat
+{"ts": "2026-03-14T08:57:50", "level": "INFO", "svc": "billing", "msg": "cache warmed"}
+{"ts": "2026-03-14T08:05:07", "level": "ERROR", "svc": "auth", "msg": "database write rejected"}
+    at com.acme.Router.route(Router.java:41)
+{"ts": "2026-03-14T09:07:47", "level": "INFO", "svc": "billing", "msg": "request completed"}
+    at com.acme.Router.route(Router.java:41)
+2026-03-14T13:32:41 worker-3 INFO cache warmed
+{"ts": "2026-03-14T09:22:49", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+  File "/srv/app/main.py", line 52, in run
+2026-03-14T11:59:53 cron-2 INFO config reloaded
+{"ts": "2026-03-14T09:49:02", "level": "WARN", "svc": "auth", "msg": "cache warmed"}
+2026-03-14T08:36:14 cron-2 ERROR failed to flush queue
+Traceback (most recent call last):
+  File "/srv/app/main.py", line 52, in run
+    at com.acme.Router.route(Router.java:41)
+2026-03-14T08:41:43 api-4 ERROR connection reset by peer
+{"ts": "2026-03-14T08:26:56", "level": "ERROR", "svc": "billing", "msg": "connection reset by peer"}
+2026-03-14T12:47:55 sync-5 WARN batch committed
+{"ts": "2026-03-14T10:04:45", "level": "INFO", "svc": "auth", "msg": "cache warmed"}
+2026-03-14T14:07:09 worker-3 WARN cache warmed
+2026-03-14T14:09:25 api-9 WARN request completed
+2026-03-14T13:55:26 worker-3 WARN config reloaded
+---
+Traceback (most recent call last):
+2026-03-14T12:57:19 sync-5 INFO config reloaded
+>>> reloading configuration
+Traceback (most recent call last):
+# rotating log segment
+# rotating log segment
+---
+
+    at com.acme.Server.handle(Server.java:88)
+======
+  File "/srv/app/main.py", line 52, in run
+   ... 3 more frames
+{"ts": "2026-03-14T09:27:05", "level": "WARN", "svc": "search", "msg": "batch committed"}
+{"ts": "2026-03-14T09:13:00", "level": "INFO", "svc": "auth", "msg": "worker heartbeat"}
+2026-03-14T14:01:11 api-9 WARN request completed
+{"ts": "2026-03-14T11:33:56", "level": "INFO", "svc": "search", "msg": "request completed"}
+2026-03-14T08:53:29 worker-7 ERROR upstream returned 503
+2026-03-14T12:49:52 cron-2 INFO health check ok
+  File "/srv/app/main.py", line 52, in run
+{"ts": "2026-03-14T10:44:22", "level": "WARN", "svc": "search", "msg": "health check ok"}
+   ... 3 more frames
+# rotating log segment
+{"ts": "2026-03-14T10:27:34", "level": "INFO", "svc": "search", "msg": "config reloaded"}
+2026-03-14T12:12:31 cron-2 WARN worker heartbeat
+======
+{"ts": "2026-03-14T09:17:46", "level": "WARN", "svc": "billing", "msg": "request completed"}
+   ... 3 more frames
+2026-03-14T12:08:37 worker-1 INFO config reloaded
+======
+# rotating log segment
+{"ts": "2026-03-14T10:09:19", "level": "WARN", "svc": "search", "msg": "request completed"}
+2026-03-14T12:39:39 sync-5 INFO config reloaded
+2026-03-14T13:56:09 worker-7 INFO batch committed
+
+   ... 3 more frames
+2026-03-14T12:43:13 worker-3 WARN worker heartbeat
+{"ts": "2026-03-14T10:40:47", "level": "INFO", "svc": "search", "msg": "batch committed"}
+Traceback (most recent call last):
+# rotating log segment
+2026-03-14T13:23:49 worker-1 WARN config reloaded
+---
+>>> reloading configuration
+{"ts": "2026-03-14T09:36:12", "level": "WARN", "svc": "auth", "msg": "config reloaded"}
+   ... 3 more frames
+    at com.acme.Server.handle(Server.java:88)
+    at com.acme.Router.route(Router.java:41)
+>>> reloading configuration
+2026-03-14T14:08:00 cron-2 WARN worker heartbeat
+2026-03-14T12:11:56 api-4 INFO worker heartbeat
+2026-03-14T12:03:21 worker-1 WARN batch committed
+   ... 3 more frames
+2026-03-14T13:23:51 api-4 WARN config reloaded
+{"ts": "2026-03-14T09:20:44", "level": "INFO", "svc": "billing", "msg": "health check ok"}
+# rotating log segment
+2026-03-14T12:23:38 api-4 WARN request completed
+{"ts": "2026-03-14T10:42:23", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+    at com.acme.Router.route(Router.java:41)
+---
+    at com.acme.Server.handle(Server.java:88)
+   ... 3 more frames
+
+   ... 3 more frames
+---
+
+Traceback (most recent call last):
+# rotating log segment
+2026-03-14T11:56:17 api-4 INFO health check ok
+{"ts": "2026-03-14T09:34:41", "level": "WARN", "svc": "billing", "msg": "request completed"}
+  File "/srv/app/main.py", line 52, in run
+    at com.acme.Router.route(Router.java:41)
+{"ts": "2026-03-14T08:25:12", "level": "ERROR", "svc": "billing", "msg": "upstream returned 503"}
+Traceback (most recent call last):
+2026-03-14T14:04:03 cron-2 INFO health check ok
+{"ts": "2026-03-14T10:29:18", "level": "WARN", "svc": "search", "msg": "config reloaded"}
+======
+{"ts": "2026-03-14T09:19:42", "level": "WARN", "svc": "auth", "msg": "cache warmed"}
+2026-03-14T13:22:15 cron-2 INFO health check ok
+Traceback (most recent call last):
+   ... 3 more frames
+2026-03-14T13:38:53 cron-2 WARN batch committed
+{"ts": "2026-03-14T08:58:50", "level": "WARN", "svc": "billing", "msg": "batch committed"}
+{"ts": "2026-03-14T08:29:21", "level": "ERROR", "svc": "auth", "msg": "disk quota exceeded"}
+---
+---
+  File "/srv/app/main.py", line 52, in run
+======
+2026-03-14T12:53:27 api-4 WARN worker heartbeat
+{"ts": "2026-03-14T10:43:01", "level": "WARN", "svc": "billing", "msg": "request completed"}
+======
+2026-03-14T13:25:57 sync-5 WARN health check ok
+======
+>>> reloading configuration
+2026-03-14T14:00:34 api-4 INFO config reloaded
+# rotating log segment
+Traceback (most recent call last):
+---
+2026-03-14T11:47:34 api-4 INFO batch committed
+2026-03-14T13:09:09 api-9 INFO cache warmed
+Traceback (most recent call last):
+# rotating log segment
+2026-03-14T08:37:41 api-4 ERROR database write rejected
+2026-03-14T12:37:46 api-4 INFO health check ok
+{"ts": "2026-03-14T11:25:19", "level": "WARN", "svc": "search", "msg": "cache warmed"}
+  File "/srv/app/main.py", line 52, in run
+---
+    at com.acme.Server.handle(Server.java:88)
+    at com.acme.Router.route(Router.java:41)
+Traceback (most recent call last):
+{"ts": "2026-03-14T10:40:32", "level": "INFO", "svc": "auth", "msg": "worker heartbeat"}
+======
+2026-03-14T12:34:45 api-4 INFO request completed
+======
+{"ts": "2026-03-14T08:18:39", "level": "ERROR", "svc": "search", "msg": "database write rejected"}
+  File "/srv/app/main.py", line 52, in run
+---
+
+    at com.acme.Server.handle(Server.java:88)
+{"ts": "2026-03-14T10:03:05", "level": "WARN", "svc": "auth", "msg": "cache warmed"}
+2026-03-14T12:47:57 cron-2 WARN batch committed
+{"ts": "2026-03-14T10:38:31", "level": "WARN", "svc": "search", "msg": "cache warmed"}
+{"ts": "2026-03-14T11:25:46", "level": "WARN", "svc": "search", "msg": "worker heartbeat"}
+{"ts": "2026-03-14T11:19:00", "level": "WARN", "svc": "billing", "msg": "health check ok"}
+2026-03-14T13:05:47 sync-5 WARN request completed
+{"ts": "2026-03-14T09:55:09", "level": "INFO", "svc": "auth", "msg": "worker heartbeat"}
+2026-03-14T13:34:29 cron-2 WARN batch committed
+>>> reloading configuration
+2026-03-14T08:51:22 worker-1 ERROR retry budget exhausted
+# rotating log segment
+======
+---
+{"ts": "2026-03-14T11:04:20", "level": "INFO", "svc": "auth", "msg": "batch committed"}
+    at com.acme.Router.route(Router.java:41)
+{"ts": "2026-03-14T11:31:49", "level": "INFO", "svc": "search", "msg": "health check ok"}
+>>> reloading configuration
+{"ts": "2026-03-14T11:38:11", "level": "INFO", "svc": "search", "msg": "config reloaded"}
+{"ts": "2026-03-14T10:21:46", "level": "WARN", "svc": "billing", "msg": "config reloaded"}
+  File "/srv/app/main.py", line 52, in run
+2026-03-14T08:47:40 worker-3 ERROR failed to flush queue
+{"ts": "2026-03-14T10:20:03", "level": "WARN", "svc": "search", "msg": "config reloaded"}
+>>> reloading configuration
+2026-03-14T08:30:36 worker-1 ERROR malformed request body
+# rotating log segment
+   ... 3 more frames
+Traceback (most recent call last):
+
+{"ts": "2026-03-14T10:13:15", "level": "INFO", "svc": "billing", "msg": "cache warmed"}
+    at com.acme.Server.handle(Server.java:88)
+======
+2026-03-14T12:01:39 api-9 INFO config reloaded
+{"ts": "2026-03-14T11:39:55", "level": "INFO", "svc": "search", "msg": "batch committed"}
+    at com.acme.Router.route(Router.java:41)
+======
+    at com.acme.Server.handle(Server.java:88)
+{"ts": "2026-03-14T10:39:49", "level": "WARN", "svc": "auth", "msg": "health check ok"}
+# rotating log segment
+{"ts": "2026-03-14T09:22:21", "level": "WARN", "svc": "billing", "msg": "cache warmed"}
+{"ts": "2026-03-14T10:37:43", "level": "WARN", "svc": "search", "msg": "health check ok"}
+---
+    at com.acme.Router.route(Router.java:41)
+# rotating log segment
+# rotating log segment
+{"ts": "2026-03-14T09:38:33", "level": "WARN", "svc": "search", "msg": "request completed"}
+  File "/srv/app/main.py", line 52, in run
+2026-03-14T13:49:16 api-4 WARN worker heartbeat
+  File "/srv/app/main.py", line 52, in run
+    at com.acme.Router.route(Router.java:41)
+   ... 3 more frames
+    at com.acme.Server.handle(Server.java:88)
+======
+>>> reloading configuration
+2026-03-14T12:17:35 api-4 WARN config reloaded
+2026-03-14T13:26:20 api-9 INFO cache warmed
+2026-03-14T12:19:07 api-4 WARN health check ok
+
+---
+    at com.acme.Router.route(Router.java:41)
+  File "/srv/app/main.py", line 52, in run
+# rotating log segment
+======
+    at com.acme.Router.route(Router.java:41)
+---
+Traceback (most recent call last):
+2026-03-14T12:05:50 worker-3 INFO cache warmed
+
+{"ts": "2026-03-14T10:39:37", "level": "INFO", "svc": "search", "msg": "batch committed"}
+  File "/srv/app/main.py", line 52, in run
+    at com.acme.Router.route(Router.java:41)
+{"ts": "2026-03-14T08:03:55", "level": "ERROR", "svc": "billing", "msg": "upstream returned 503"}
+
+2026-03-14T08:34:20 cron-2 ERROR retry budget exhausted
+======
+======
+    at com.acme.Router.route(Router.java:41)
+{"ts": "2026-03-14T10:21:40", "level": "WARN", "svc": "search", "msg": "config reloaded"}
+    at com.acme.Server.handle(Server.java:88)
+{"ts": "2026-03-14T09:53:57", "level": "WARN", "svc": "search", "msg": "config reloaded"}
+{"ts": "2026-03-14T10:18:33", "level": "INFO", "svc": "search", "msg": "worker heartbeat"}
+Traceback (most recent call last):
+{"ts": "2026-03-14T09:12:24", "level": "INFO", "svc": "search", "msg": "request completed"}
+{"ts": "2026-03-14T09:00:04", "level": "WARN", "svc": "search", "msg": "config reloaded"}
+{"ts": "2026-03-14T11:15:37", "level": "INFO", "svc": "billing", "msg": "worker heartbeat"}
+# rotating log segment
+# rotating log segment
+    at com.acme.Router.route(Router.java:41)
+    at com.acme.Router.route(Router.java:41)
+2026-03-14T08:40:06 worker-3 ERROR session store unreachable
+======
+{"ts": "2026-03-14T09:28:22", "level": "INFO", "svc": "search", "msg": "health check ok"}
+2026-03-14T12:22:26 api-4 INFO request completed
+{"ts": "2026-03-14T09:30:26", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-03-14T11:34:09", "level": "WARN", "svc": "auth", "msg": "health check ok"}
+   ... 3 more frames
+2026-03-14T12:51:07 sync-5 INFO cache warmed
+{"ts": "2026-03-14T09:59:31", "level": "WARN", "svc": "search", "msg": "health check ok"}
+{"ts": "2026-03-14T10:24:21", "level": "WARN", "svc": "billing", "msg": "config reloaded"}
+  File "/srv/app/main.py", line 52, in run
+2026-03-14T12:13:26 worker-3 WARN batch committed
+======
+
+{"ts": "2026-03-14T09:08:26", "level": "WARN", "svc": "auth", "msg": "worker heartbeat"}
+2026-03-14T13:19:20 api-4 WARN cache warmed
+{"ts": "2026-03-14T10:29:59", "level": "WARN", "svc": "auth", "msg": "worker heartbeat"}
+  File "/srv/app/main.py", line 52, in run
+{"ts": "2026-03-14T11:11:08", "level": "WARN", "svc": "search", "msg": "config reloaded"}
+{"ts": "2026-03-14T08:12:25", "level": "ERROR", "svc": "auth", "msg": "upstream returned 503"}
+{"ts": "2026-03-14T09:45:08", "level": "WARN", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-03-14T10:34:01", "level": "WARN", "svc": "search", "msg": "cache warmed"}
+  File "/srv/app/main.py", line 52, in run
+# rotating log segment
+>>> reloading configuration
+   ... 3 more frames
+
+Traceback (most recent call last):
+# rotating log segment
+# rotating log segment
+Traceback (most recent call last):
+{"ts": "2026-03-14T11:11:39", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+---
+{"ts": "2026-03-14T10:15:44", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+---
+2026-03-14T12:08:31 cron-2 WARN request completed
+{"ts": "2026-03-14T10:06:45", "level": "WARN", "svc": "search", "msg": "batch committed"}
+Traceback (most recent call last):
+>>> reloading configuration
+2026-03-14T13:10:45 sync-5 WARN worker heartbeat
+  File "/srv/app/main.py", line 52, in run
+2026-03-14T14:05:32 worker-3 WARN worker heartbeat
+Traceback (most recent call last):
+{"ts": "2026-03-14T10:18:10", "level": "INFO", "svc": "billing", "msg": "cache warmed"}
+{"ts": "2026-03-14T09:26:39", "level": "INFO", "svc": "billing", "msg": "health check ok"}
+{"ts": "2026-03-14T10:23:13", "level": "WARN", "svc": "search", "msg": "worker heartbeat"}
+{"ts": "2026-03-14T08:24:46", "level": "ERROR", "svc": "search", "msg": "token validation failed"}
+2026-03-14T08:37:38 api-9 ERROR token validation failed
+# rotating log segment
+    at com.acme.Server.handle(Server.java:88)
+  File "/srv/app/main.py", line 52, in run
+Traceback (most recent call last):
+2026-03-14T12:45:47 api-4 INFO health check ok
+>>> reloading configuration
+======
+{"ts": "2026-03-14T10:55:51", "level": "WARN", "svc": "auth", "msg": "cache warmed"}
+2026-03-14T08:43:21 worker-1 ERROR retry budget exhausted
+{"ts": "2026-03-14T10:37:01", "level": "WARN", "svc": "search", "msg": "request completed"}
+# rotating log segment
+2026-03-14T13:00:47 api-9 WARN batch committed
+2026-03-14T08:45:18 worker-7 ERROR connection reset by peer
+# rotating log segment
+    at com.acme.Server.handle(Server.java:88)
+2026-03-14T12:41:36 worker-1 WARN cache warmed
+  File "/srv/app/main.py", line 52, in run
+{"ts": "2026-03-14T10:50:57", "level": "WARN", "svc": "auth", "msg": "batch committed"}
+2026-03-14T11:46:06 worker-1 INFO config reloaded
+# rotating log segment
+{"ts": "2026-03-14T11:19:56", "level": "WARN", "svc": "auth", "msg": "config reloaded"}
+2026-03-14T11:54:15 api-9 INFO config reloaded
+{"ts": "2026-03-14T08:05:00", "level": "ERROR", "svc": "auth", "msg": "session store unreachable"}
+{"ts": "2026-03-14T10:25:35", "level": "INFO", "svc": "billing", "msg": "request completed"}
+2026-03-14T11:57:14 worker-1 WARN worker heartbeat
+Traceback (most recent call last):
+{"ts": "2026-03-14T08:05:35", "level": "ERROR", "svc": "search", "msg": "timeout waiting for lock"}
+---
+>>> reloading configuration
+2026-03-14T11:59:33 api-9 INFO batch committed
+{"ts": "2026-03-14T09:19:36", "level": "WARN", "svc": "search", "msg": "health check ok"}
+======
+2026-03-14T12:26:30 cron-2 INFO request completed
+{"ts": "2026-03-14T10:31:21", "level": "WARN", "svc": "auth", "msg": "worker heartbeat"}
+    at com.acme.Router.route(Router.java:41)
+2026-03-14T13:58:14 cron-2 WARN cache warmed
+  File "/srv/app/main.py", line 52, in run
+2026-03-14T13:39:52 api-4 WARN request completed
+Traceback (most recent call last):
+2026-03-14T12:51:02 worker-7 WARN config reloaded
+{"ts": "2026-03-14T10:05:11", "level": "INFO", "svc": "search", "msg": "worker heartbeat"}
+2026-03-14T12:29:02 sync-5 INFO health check ok
+2026-03-14T14:13:08 api-9 WARN worker heartbeat
+{"ts": "2026-03-14T11:14:02", "level": "WARN", "svc": "search", "msg": "worker heartbeat"}
+# rotating log segment
+{"ts": "2026-03-14T09:43:22", "level": "INFO", "svc": "billing", "msg": "config reloaded"}
+>>> reloading configuration
+    at com.acme.Server.handle(Server.java:88)
+2026-03-14T13:03:04 api-4 INFO request completed
+# rotating log segment
+2026-03-14T11:50:32 sync-5 INFO health check ok
+{"ts": "2026-03-14T10:57:53", "level": "WARN", "svc": "auth", "msg": "batch committed"}
+# rotating log segment
+Traceback (most recent call last):
+{"ts": "2026-03-14T11:33:50", "level": "WARN", "svc": "auth", "msg": "worker heartbeat"}
+{"ts": "2026-03-14T11:14:11", "level": "INFO", "svc": "billing", "msg": "cache warmed"}
+    at com.acme.Router.route(Router.java:41)
+---
+2026-03-14T11:50:42 worker-3 INFO cache warmed
+Traceback (most recent call last):
+2026-03-14T13:31:15 api-9 INFO health check ok
+2026-03-14T13:36:35 worker-7 WARN request completed
+2026-03-14T12:30:13 worker-3 WARN request completed
+---
+
+---
+    at com.acme.Server.handle(Server.java:88)
+2026-03-14T14:10:40 worker-3 WARN cache warmed
+  File "/srv/app/main.py", line 52, in run
+2026-03-14T12:01:02 worker-1 INFO cache warmed
+{"ts": "2026-03-14T09:14:18", "level": "INFO", "svc": "billing", "msg": "request completed"}
+2026-03-14T13:21:49 worker-7 WARN cache warmed
+    at com.acme.Server.handle(Server.java:88)
+   ... 3 more frames
+
+2026-03-14T13:44:12 worker-7 INFO health check ok
+2026-03-14T13:41:34 worker-1 WARN batch committed
+    at com.acme.Router.route(Router.java:41)
+---
+2026-03-14T12:06:20 worker-1 INFO request completed
+  File "/srv/app/main.py", line 52, in run
+    at com.acme.Router.route(Router.java:41)
+{"ts": "2026-03-14T10:48:49", "level": "INFO", "svc": "search", "msg": "request completed"}
+{"ts": "2026-03-14T08:11:21", "level": "ERROR", "svc": "auth", "msg": "session store unreachable"}
+{"ts": "2026-03-14T09:47:38", "level": "WARN", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-03-14T11:25:05", "level": "INFO", "svc": "auth", "msg": "batch committed"}
+{"ts": "2026-03-14T10:06:52", "level": "INFO", "svc": "billing", "msg": "request completed"}
+2026-03-14T12:36:40 sync-5 INFO config reloaded
+2026-03-14T12:51:20 worker-3 WARN health check ok
+2026-03-14T12:24:17 api-9 WARN worker heartbeat
+    at com.acme.Router.route(Router.java:41)
+2026-03-14T12:59:13 api-4 INFO worker heartbeat
+---
+2026-03-14T11:53:58 worker-3 WARN config reloaded
+>>> reloading configuration
+    at com.acme.Router.route(Router.java:41)
+2026-03-14T13:16:54 api-4 INFO config reloaded
+
+{"ts": "2026-03-14T11:06:48", "level": "WARN", "svc": "auth", "msg": "config reloaded"}
+{"ts": "2026-03-14T10:55:06", "level": "WARN", "svc": "billing", "msg": "batch committed"}
+# rotating log segment
+   ... 3 more frames
+2026-03-14T13:15:45 api-9 WARN batch committed
+{"ts": "2026-03-14T11:39:05", "level": "WARN", "svc": "billing", "msg": "request completed"}
+2026-03-14T12:04:34 sync-5 INFO cache warmed
+{"ts": "2026-03-14T09:50:54", "level": "WARN", "svc": "auth", "msg": "health check ok"}
+{"ts": "2026-03-14T09:33:11", "level": "WARN", "svc": "billing", "msg": "request completed"}
+{"ts": "2026-03-14T08:09:34", "level": "ERROR", "svc": "search", "msg": "session store unreachable"}
+   ... 3 more frames
+    at com.acme.Router.route(Router.java:41)
+2026-03-14T13:07:38 worker-3 INFO cache warmed
+{"ts": "2026-03-14T10:02:16", "level": "INFO", "svc": "auth", "msg": "config reloaded"}
+---
+{"ts": "2026-03-14T10:32:23", "level": "WARN", "svc": "billing", "msg": "request completed"}
+
+>>> reloading configuration
+2026-03-14T12:14:17 worker-7 WARN worker heartbeat
+
+2026-03-14T13:13:12 worker-7 INFO batch committed
+2026-03-14T12:54:29 worker-1 INFO cache warmed
+2026-03-14T13:07:16 cron-2 INFO health check ok
+>>> reloading configuration
+{"ts": "2026-03-14T09:24:46", "level": "WARN", "svc": "search", "msg": "health check ok"}
+2026-03-14T12:43:14 worker-3 WARN health check ok
+    at com.acme.Server.handle(Server.java:88)
+2026-03-14T12:23:20 api-4 INFO worker heartbeat
+    at com.acme.Router.route(Router.java:41)
+{"ts": "2026-03-14T10:58:21", "level": "WARN", "svc": "search", "msg": "cache warmed"}
+2026-03-14T14:01:39 api-9 INFO worker heartbeat
+  File "/srv/app/main.py", line 52, in run
+2026-03-14T12:30:22 worker-1 INFO cache warmed
+{"ts": "2026-03-14T08:13:17", "level": "ERROR", "svc": "search", "msg": "database write rejected"}
+   ... 3 more frames
+{"ts": "2026-03-14T10:54:54", "level": "INFO", "svc": "billing", "msg": "batch committed"}
+  File "/srv/app/main.py", line 52, in run
+{"ts": "2026-03-14T09:07:16", "level": "WARN", "svc": "search", "msg": "worker heartbeat"}
+  File "/srv/app/main.py", line 52, in run
+>>> reloading configuration
+    at com.acme.Router.route(Router.java:41)
+  File "/srv/app/main.py", line 52, in run
+{"ts": "2026-03-14T09:13:13", "level": "WARN", "svc": "search", "msg": "health check ok"}
+---
+{"ts": "2026-03-14T08:04:26", "level": "ERROR", "svc": "billing", "msg": "connection reset by peer"}
+# rotating log segment
+{"ts": "2026-03-14T08:58:08", "level": "WARN", "svc": "auth", "msg": "worker heartbeat"}
+{"ts": "2026-03-14T09:01:51", "level": "WARN", "svc": "billing", "msg": "health check ok"}
+2026-03-14T13:54:14 worker-7 WARN batch committed
+2026-03-14T12:20:19 api-4 WARN health check ok
+======
+>>> reloading configuration
+======
+    at com.acme.Router.route(Router.java:41)
+   ... 3 more frames
+2026-03-14T13:46:28 api-4 INFO batch committed
+2026-03-14T13:42:52 api-9 WARN health check ok
+# rotating log segment
+    at com.acme.Server.handle(Server.java:88)
+{"ts": "2026-03-14T10:22:26", "level": "WARN", "svc": "billing", "msg": "config reloaded"}
+{"ts": "2026-03-14T10:46:29", "level": "WARN", "svc": "billing", "msg": "config reloaded"}
+Traceback (most recent call last):
+{"ts": "2026-03-14T11:36:21", "level": "WARN", "svc": "auth", "msg": "health check ok"}
+2026-03-14T12:56:55 worker-3 INFO config reloaded
+---

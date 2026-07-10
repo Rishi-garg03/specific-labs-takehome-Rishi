@@ -145,6 +145,14 @@ uv run python -m runner.run_task tasks/01-csv-merge-basic   # end-to-end one tas
 The agent also has an **env-gated** transcript writer (`AGENT_TRANSCRIPT=<path>`) — off by default,
 zero effect on grading.
 
+## Extra test tasks
+
+Beyond the ten provided tasks, `extra_tasks/` holds six more I wrote while iterating — harder
+variants across the same categories (mixed encodings, noisy logs, SSN-vs-order-number redaction, a
+one-row pandas bug, a recency-tiebreak reconcile, and a combined extract-then-reconcile). Each has
+the same `task.md` / `workspace/` / `verify.py` layout and runs through the same runner
+(`python -m runner.run_task 'extra_tasks/*'`). See `extra_tasks/README.md`.
+
 ## Remaining limitation & next steps
 
 - **06 (name redaction) is cost-marginal** — correct on 16/16, but it carries the full redaction
